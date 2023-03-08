@@ -65,9 +65,9 @@ h1 {
     font-weight: 400;
 }
 
-/* Header style start */
+  /* Header style start */
 
-.wrapper__header {
+  .wrapper__header {
     background: url(../img/header__bk.png) center no-repeat;
     z-index: 1;
   }
@@ -226,7 +226,7 @@ h1 {
 
   /* Cards style start */
 
-.cards-wrapper {
+  .cards-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -273,7 +273,7 @@ h1 {
 
   /* History style start */
 
-.history__wrapper {
+  .history__wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -358,3 +358,102 @@ h1 {
   }
   
   /* History style end*/
+
+  /* Holiday style start */
+
+  .holiday__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../img/holiday__bk.jpg);
+    background-size: cover;
+    padding: 80px 186px 104px 165px;
+  }
+  .holiday__text-title {
+    max-width: 601px;
+    font-size: 52px;
+    line-height: 60px;
+    color: #D67E34;
+    padding-bottom: 20px;
+  }
+  .holiday__text-desc {
+    font-family: 'open sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+  }
+  .holiday__button-btn {
+    font-family: 'open sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    background: #FF7400;
+    color: #FFFFFF;
+    padding: 14px 19px;
+    border: none;
+    transition: 0.2s linear;
+  }
+  .holiday__button-btn:hover, .holiday__button-btn:focus, .holiday__button-btn:active {
+    opacity: 0.7;
+  }
+  
+  /* Holiday style end */
+
+  /* Dishes style start */
+
+  .dishes__wrapper {
+    margin: 132px 146px 150px 165px;
+  }
+  .dishes__title {
+    margin-bottom: 139px;
+    text-align: center;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+  }
+  .dishes__title span {
+    color: #D67E34;
+  }
+  .dishes__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .dishes__menu-pic {
+    width: 445px;
+    height: 478px;
+  }
+  .dishes__menu-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 29px;
+  }
+  .dishes-last-item {
+    margin: 0px;
+  }
+  .dishes__menu-item-title {
+    margin: 0px 7px 0px 30px;
+  }
+  .dishes__menu-item-line {
+    width: 204px;
+    height: 0px;
+    margin-left: 0px;
+    border: none;
+    border-bottom: 1px dashed #000;
+  }
+  .dishes__menu-item-cost {
+    margin-left: 11px;
+  }
+
+  /* Dishes style start */
