@@ -52,6 +52,14 @@
     src: url('../fonts/open-sans-v34-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
          url('../fonts/open-sans-v34-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Cookie';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/cookie-v17-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+         url('../fonts/cookie-v17-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
 html {
     box-sizing: border-box;
 }
@@ -456,4 +464,89 @@ h1 {
     margin-left: 11px;
   }
 
-  /* Dishes style start */
+  /* Dishes style end */
+
+  /* Menu style start */
+
+  .menu__wrapper {
+    background-image: url(../img/menu__background.png);
+    padding: 100px 164px 226px 166px;
+  }
+  .menu__title {
+    font-size: 54px;
+    line-height: 62px;
+    color: #FFFFFF;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-bottom: 138px;
+  }
+  .menu__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .menu__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 510px;
+    background: #FFFFFF;
+  }
+  .menu__card-pic {
+    margin: 80px 0px 22px 0px;
+    position: relative;
+  }
+  .menu__card-price {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    background: #D67E34;
+    position: absolute;
+    border-radius: 50px;
+    border: 7px solid white;
+    bottom: 0px;
+    right: 0px;
+  }
+  .menu__card-pic-cost {
+    font-family: 'Cookie';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 31px;
+    right: 31px;
+  }
+  .menu__card-title {
+    font-family: 'Tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000;
+    margin-bottom: 17px;
+  }
+  .menu__card-desc {
+    font-family: 'Open sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #000;
+  }
+  .menu__card-btn {
+    padding: 14px 68px;
+    background: #D67E34;
+    color: #FFFFFF;
+    border: none;
+    transition: 0.2s linear;
+  }
+  .menu__card-btn:hover, .menu__card-btn:focus, .menu__card-btn:active {
+    opacity: 0.7;
+  }
+
+  /* Menu style end */
