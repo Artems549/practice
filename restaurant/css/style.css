@@ -223,3 +223,50 @@ h1 {
   }
   
   /* Header style end */
+
+  /* Cards style start */
+
+.cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 165px;
+    margin-right: 165px;
+  }
+  .cards__card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 349px;
+    height: 328px;
+    margin-top: -107px;
+    background: #ffffff;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+  }
+  .cards__card-pic {
+    object-fit: none;
+    margin: 48px 0px 4px 0px;
+  }
+  .cards__card-title {
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+    margin-bottom: 20px;
+  }
+  .cards__card-title span {
+    color: #BC9060
+  }
+  .cards__card-desc {
+    font-family: 'tinos';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
+    text-align: center;
+  }
+  
+  /* Cards style end */
