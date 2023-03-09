@@ -60,6 +60,15 @@
     src: url('../fonts/cookie-v17-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
          url('../fonts/cookie-v17-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v34-latin-italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+        url('../fonts/open-sans-v34-latin-italic.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
 html {
     box-sizing: border-box;
 }
@@ -550,3 +559,63 @@ h1 {
   }
 
   /* Menu style end */
+
+  /* Feedback style start */
+
+  .feedback__wrapper {
+    font-family: 'Open sans';
+    background-color: #E6E5E5;
+    padding: 104px 260px 108px 260px;
+    text-align: center;
+    position: relative;
+  }
+  .feedback__text {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  .feedback__img {
+    margin-bottom: 16px;
+  }
+  .feedback__visitor {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 9px;
+  }
+  .feedback__name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 26px;
+  }
+  .feedback__circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .feedback__circle-item {
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    background: #C4C4C4;
+    border: 3px solid #C4C4C4;
+    transition: 0.2s linear;
+  }
+  .feedback__circle-item-second {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .feedback__circle-item:hover {
+    border: 3px solid #FF7400
+  }
+
+  /* Feedback style end */
