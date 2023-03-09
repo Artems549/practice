@@ -683,3 +683,26 @@ h1 {
   }
 
   /* Galery style end */
+
+  /* Cook style start */
+
+  .cook__wrapper {
+    margin: 100px 165px;
+  }
+  .cook__text-title {
+    font-size: 54px;
+    line-height: 62px;
+    margin-bottom: 107px;
+    text-align: center;
+    color: #000;
+  }
+  .cook__text-title span {
+    color: #D67E34;
+  }
+  .cook__img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  /* Cook style end */
