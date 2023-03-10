@@ -222,3 +222,90 @@ html {
 }
 
 /* Prof style end */
+
+/* Service style start */
+
+.service__top {
+    background: #EDF2EC;
+}
+.service__text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 109px;
+    margin-right: 109px;
+    margin-bottom: 90px;
+    padding-top: 40px;
+}
+.service__text-title {
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+
+}
+.service__btn-top {
+    margin-right: 215px;
+}
+.service__btn {
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color:#E06733;
+    width: 161px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    margin-left: 38px;
+    transition: 0.2s linear;
+}
+.service__btn:hover, .service__btn:focus, .service__btn:active {
+    background:rgba(224, 103, 51, 1);
+    color: #ffffff;
+}
+
+.cards__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 109px;
+    padding-bottom: 66px;
+}
+.card {
+    margin-bottom: 55px;
+}
+.card__pic {
+    border-radius: 20px 20px 0px 0px;
+}
+.card__text-top {
+    text-align: center;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
+}
+.card__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    color:  #E06733;
+    padding-top: 10px
+}
+.card__desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+    padding-bottom: 36px;
+}
+
+/* Service style end */
