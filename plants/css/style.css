@@ -309,3 +309,95 @@ html {
 }
 
 /* Service style end */
+
+/* Price style start */
+
+     /* Price left side style start */
+
+    .price__top {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background: #ffffff;
+        margin: 40px 109px 115px 109px;
+    }
+    .price__left-title-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 48px;
+        color: #000000;
+        margin-bottom: 60px;
+    }
+    .price__top-btn-left {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border: 1px solid #E3E1D5;
+        border-radius: 20px;
+        padding: 34px 41px;
+    }
+    .price__btn-left {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #000000;
+        background: #EDF2EC;
+        border-radius: 20px;
+        width: 250px;
+        padding: 15px 0px 15px 40px;
+        border: none;
+        text-align: left;
+    }
+    .price__btn-left.mar {
+        margin: 32px 0px;
+    }
+
+    /* Price left side style end */
+
+    /* Price right side style start */
+
+    .price__top-right {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .price__right-title-text {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: #000000;
+        text-align: right;
+        margin-bottom: 38px;
+    }
+    .price__right-title-text span {
+        color: rgba(73, 154, 24, 1)
+    }
+    .price__btn-right {
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 26px;
+        color: #E06733;
+        background: #ffffff;
+        padding: 12px 34px 12px 30px;
+        border: 1px solid #E06733;
+        border-radius: 5px;
+        transition: 0.2s linear;
+        margin-bottom: 39px;
+    }
+    .price__btn-right:hover, .price__btn-right:focus, .price__btn-right:active {
+        background:rgba(224, 103, 51, 1);
+        color: #ffffff;
+    }
+
+    /* Price right side style end */
+
+/* Price style end */
