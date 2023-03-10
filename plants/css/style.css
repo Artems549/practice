@@ -178,3 +178,47 @@ html {
 }
 
 /* Intro style end */
+
+/* Prof style start */
+
+.prof {
+    background: #ffffff;
+}
+.prof__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.prof__text {
+    max-width: 605px;
+    margin-top: 161px;
+    margin-bottom: 155px;
+    margin-left: 109px;
+}
+
+.prof__text-title {
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18
+}
+.prof__text-title span {
+    color: rgba(224, 103, 51, 1)
+}
+.prof__text-desc {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+.prof__img {
+    margin-top: 93px;
+    margin-bottom: 94px;
+    margin-right: 109px
+}
+
+/* Prof style end */
