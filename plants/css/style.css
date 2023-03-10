@@ -401,3 +401,38 @@ html {
     /* Price right side style end */
 
 /* Price style end */
+
+/* Contact style start */
+
+.contact__top {
+    display: flex;
+    flex-wrap: wrap;
+    background: #EDF2EC;
+    padding: 53px 109px 0px 109px;
+}
+.contact__title-text {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    margin: 7px 0px 0px 113px
+}
+.contact__city-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    background: #D6E7D2;
+    color: #717171;
+    border: none;
+    width: 450px;
+    text-align: left;
+    padding: 5px 0px 5px 20px;
+    margin: 95px 0px 0px 64px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Contact style end */
