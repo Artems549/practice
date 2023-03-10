@@ -121,3 +121,60 @@ html {
 }
 
 /* Header style end */
+
+/* Intro style start */
+
+.intro__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #EDF2EC;
+
+}
+.intro__img {
+    margin: 62px 0px 62.64px 109px;
+}
+.intro__text {
+    width: 549px;
+    margin-top: 98px;
+    margin-right: 109px;
+}
+.intro__title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+    margin-bottom: 42px;
+}
+.intro__title span {
+    color: rgba(73, 154, 24, 1);
+}
+.intro__desc {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+    margin-bottom: 48px;
+}
+.intro__more {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    padding: 14px 27px;
+    border: 2px solid rgba(224, 103, 51, 1);
+    border-radius: 10px;
+    transition: 0.2s linear;
+}
+.intro__more:hover, .intro__more:focus, .intro__more:active {
+    background:rgba(224, 103, 51, 1);
+    color: #ffffff;
+}
+
+/* Intro style end */
