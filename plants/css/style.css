@@ -508,3 +508,215 @@ html {
 }
 
 /* Footer style end */
+
+/* Media start */
+
+@media screen and (max-width: 768px) {
+
+    /* Header style start */
+
+    .header__top {
+         padding: 35px 0px;
+    }
+    .header__logo {
+         margin-left: 50px;
+    }
+    .header__nav-top {
+         height: 47px;
+         margin-right: 50px;
+    }
+    .header__nav-link-last {
+         margin-right: 0px;
+    }
+    /* Header style end */
+
+    /* Intro style start */
+
+    .intro__top {
+         flex-flow: row-reverse;
+         padding: 40px 50px 70px 50px;
+    }
+    .intro__img {
+         margin: 0px;
+    }
+    .intro_pic {
+         width: 280px;
+    }
+    .intro__text {
+         width: 346px;
+         margin: 0px;
+    }
+    .intro__title {
+         font-size: 35px;
+         margin-bottom: 30px;
+    }
+    .intro__desc {
+         font-size: 16px;
+         line-height: 25px;
+         margin-bottom: 30px;
+    }
+
+    /* Intro style end */
+
+    /* Prof style start */
+
+    .prof__top {
+         flex-direction: column;
+         align-items: center;
+         margin: 40px 50px 95px 50px;
+    }
+    .prof__text {
+        max-width: 668px;
+        margin: 0px 0px 40px 0px;
+    }
+    .prof__text-title {
+         font-size: 35px;
+         line-height: 46px;
+         text-align: center;
+         margin-bottom: 40px;
+         padding-bottom: 10px;
+    }
+    .prof__text-desc {
+         text-align: left;
+         padding-bottom: 28px;
+    }
+    .prof__img {
+         margin: 0px;
+    }
+    .prof__img-pic {
+         width: 250px;
+    }
+
+    /* Prof style end */
+
+    /* Service style start */
+
+    .service__top {
+         margin: 0px;
+         padding: 60px 50px 32px 50px;
+    }
+    .service__text {
+         margin: 0px;
+         padding: 0px;
+    }
+    .service__text-title {
+         font-size: 35px;
+         line-height: 46px;
+         margin-bottom: 40px;
+    }
+    .service__btn-top {
+         margin: 0px 0px 40px 0px;
+    }
+    .service__btn {
+         margin: 0px 38px 0px 0px;
+    }
+    .cards__top {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         margin: 0px;
+         padding: 0px;
+    }
+    .card {
+         width: 280px;
+         margin-bottom: 38px;
+    }
+    .card__pic {
+         width: 280px;
+         height: 350px;
+         object-fit: cover;
+    }
+    .card__desc {
+         padding: 0px 40px 20px 40px;
+    }
+    /* Service style end */
+
+    /* Prices style start */
+
+    .price__top {
+         margin: 40px 50px 88px 50px;
+    }
+
+    .price__left-title-text {
+         font-size: 35px;
+         line-height: 42px;
+         margin-bottom: 50px;
+    }
+    .price__top-right {
+         margin-top: 99px;
+    }
+    .price__right-title-text {
+         font-size: 25px;
+         line-height: 35px;
+         margin-bottom: 21.6px
+    }
+    .price__btn-right {
+         margin-bottom: 34px;
+    }
+    .price__pic {
+         height: 174px;
+    }
+
+    /* Price style end */
+
+    /* Contact style start */
+
+    .contact__top {
+         flex-direction: column;
+         flex-flow: column-reverse;
+         align-items: center;
+         padding-top: 40px;
+    }
+    .contact__img-pic {
+         width: 200px;
+    }
+    .contact__title {
+         order: 1;
+         margin-bottom: 100px;
+    }
+    .contact__title-text {
+         margin: 0px;
+    }
+    .contact__city {
+         margin-bottom: 250px
+    }
+    .contact__city-text {
+         margin: 0px;
+    }
+
+    /* Contact style end */
+
+    /* Footer style start */
+
+    .footer__top {
+         flex-direction: column;
+         align-items: center;
+         margin: 32.5px 0px 0px 0px;
+    }
+    .footer__left-item {
+         line-height: 24.2px;
+         margin: 0px;
+    }
+    .footer__left-item-year {
+         margin: 0px 20px 0px 20px;
+    }
+    .footer__rs {
+         line-height: 24.2px;
+    }
+    .footer__icon {
+         margin-left: 30px;
+    }
+    .footer__icon.i {
+         margin-left: 0px;
+    }
+    .footer__icon.p {
+         margin-left: 25px;
+    }
+    .footer__right {
+         margin-top: 16px;
+         margin-bottom: 18px;
+         padding: 10px 5px;
+    }
+
+    /* Footer style end */
+}
